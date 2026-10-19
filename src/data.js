@@ -8,7 +8,7 @@ export const ME = {
 export const PROJECTS = [
   {
     id: 1, cat: "E-commerce", title: "Novae Ecommerce Store", g: ["#FF8A65", "#FF5B3D"],
-    img: "projects/Novae-ecommerce.png",
+    img: "../projects/Novae-ecommerce.png",
     desc: "Rebuilt a slow Shopify-style store in React with one-page checkout and instant search.",
     tags: ["React", "Stripe", "Next.js"], stats: [["+62%", "Checkout rate"], ["0.9s", "Load time"]],
     link: "https://syedhassanali-dev.github.io/novae-ecommerce/",
@@ -16,7 +16,7 @@ export const PROJECTS = [
   },
   {
     id: 2, cat: "E-commerce", title: "Shopping Cart", g: ["#6C8BFF", "#2A55FF"],
-    img: "projects/Shopping-cart.png",
+    img: "../projects/Shopping-cart.png",
     desc: "Analytics dashboard with live charts, roles and dark mode for a 3,000-user product.",
     tags: ["React", "Node", "Charts"], stats: [["3k+", "Active users"], ["-40%", "Support tickets"]],
     link: "https://shopping-cart000.netlify.app/",
@@ -24,7 +24,7 @@ export const PROJECTS = [
   },
   {
     id: 3, cat: "Food", title: "Zomato Food", g: ["#3DD6B0", "#12A38A"],
-    img: "projects/Zomato-Landing-Page.png",
+    img: "../projects/Zomato-Landing-Page.png",
     desc: "Landing page with online booking that fills the clinic's calendar every week.",
     tags: ["React", "SEO", "Booking"], stats: [["+118", "Bookings / month"], ["#1", "Local Google rank"]],
     link: "https://visionary-boba-ce15a9.netlify.app/",
@@ -32,7 +32,7 @@ export const PROJECTS = [
   },
   {
     id: 4, cat: "Ai Game", title: "Ai Powered Game", g: ["#B28DFF", "#7A4DFF"],
-    img: "projects/image.png",
+    img: "../projects/image.png",
     desc: "Property listing site with filters, map view and WhatsApp lead capture.",
     tags: ["React", "Maps", "API"], stats: [["4x", "More enquiries"], ["98", "Lighthouse score"]],
     link: "https://classy-torrone-ae5073.netlify.app/",

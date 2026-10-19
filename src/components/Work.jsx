@@ -66,11 +66,7 @@ export default function Work() {
                 <h3>{p.title}</h3>
                 <p>{p.desc}</p>
                 <div className="result">
-                  <a
-                    className="btn primary sm"
-                    href={p.github}
-                    target="_blank"
-                  >
+                  <a className="btn primary sm" href={p.github} target="_blank">
                     GitHub
                   </a>
                   <a
