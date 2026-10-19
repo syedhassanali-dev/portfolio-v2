@@ -406,6 +406,7 @@ nav .wrap {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 22px;
+  transition: .6s ease-in;
 }
 .case {
   background: var(--surface);
@@ -414,7 +415,7 @@ nav .wrap {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: transform 0.2s;
+  transition: .6s ease-in;
 }
 .case:hover {
   transform: translateY(-4px);
