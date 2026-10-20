@@ -1,6 +1,6 @@
 // ====== YAHAN APNI DETAILS ======
 export const ME = {
-  name: "Syed Hassan",
+  name: "Hassan",
   email: "abchassan2526@gmail.com",
   whatsapp: "+923153448608", // country code + number, bina + ke
 };
@@ -9,7 +9,7 @@ export const PROJECTS = [
   {
     id: 1, cat: "E-commerce", title: "Novae Ecommerce Store", g: ["#FF8A65", "#FF5B3D"],
     img: "/projects/Novae-ecommerce.png",
-    desc: "Rebuilt a slow Shopify-style store in React with one-page checkout and instant search.",
+    desc: "NOVAE -- More Than Priducts it's a Lifestyle. A modern luxury e-commerce websites",
     tags: ["React", "Stripe", "Next.js"], stats: [["+62%", "Checkout rate"], ["0.9s", "Load time"]],
     link: "https://syedhassanali-dev.github.io/novae-ecommerce/",
     github: "https://github.com/syedhassanali-dev/novae-ecommerce.git"
@@ -17,7 +17,7 @@ export const PROJECTS = [
   {
     id: 2, cat: "E-commerce", title: "Shopping Cart", g: ["#6C8BFF", "#2A55FF"],
     img: "/projects/Shopping-cart.png",
-    desc: "Analytics dashboard with live charts, roles and dark mode for a 3,000-user product.",
+    desc: "Mini Shopping Cart | React.js + Tailwind CSS Built a Mini Shopping Cart using React.js and Tailwind CSS!",
     tags: ["React", "Node", "Charts"], stats: [["3k+", "Active users"], ["-40%", "Support tickets"]],
     link: "https://shopping-cart000.netlify.app/",
     github: "https://github.com/syedhassanali-dev/react-mini-shopping-cart.git"
@@ -25,7 +25,7 @@ export const PROJECTS = [
   {
     id: 3, cat: "Food", title: "Zomato Food", g: ["#3DD6B0", "#12A38A"],
     img: "/projects/Zomato-Landing-Page.png",
-    desc: "Landing page with online booking that fills the clinic's calendar every week.",
+    desc: "Landing page with online Food Zomato Web",
     tags: ["React", "SEO", "Booking"], stats: [["+118", "Bookings / month"], ["#1", "Local Google rank"]],
     link: "https://visionary-boba-ce15a9.netlify.app/",
     github: "https://github.com/syedhassanali-dev/Zomato-Landing-Page.git"
@@ -33,7 +33,7 @@ export const PROJECTS = [
   {
     id: 4, cat: "Ai Game", title: "Ai Powered Game", g: ["#B28DFF", "#7A4DFF"],
     img: "/projects/image.png",
-    desc: "Property listing site with filters, map view and WhatsApp lead capture.",
+    desc: "Unlike a traditional two-player version, this game allows you to play against the computer",
     tags: ["React", "Maps", "API"], stats: [["4x", "More enquiries"], ["98", "Lighthouse score"]],
     link: "https://classy-torrone-ae5073.netlify.app/",
     github: "https://github.com/syedhassanali-dev/AI-Powered-Tic-Tac-Toe-Game.git"

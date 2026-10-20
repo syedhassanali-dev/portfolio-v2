@@ -70,7 +70,7 @@ export default function Work() {
                     GitHub
                   </a>
                   <a
-                    className="btn bg-[#FF7A5F] sm"
+                    className="btn bg-[#FF7A5F] shadow-2xl shadow-amber-800 sm transition duration-500 ease-in hover:scale-105"
                     href={p.link}
                     target="_blank"
                   >
