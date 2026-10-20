@@ -1,4 +1,5 @@
 import { ME } from '../data'
+import { FaWhatsapp } from 'react-icons/fa'
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
         </div>
       </footer>
       <a className="float" href={`https://wa.me/${ME.whatsapp}`} target="_blank" rel="noopener noreferrer">
-        Chat on WhatsApp
+        <FaWhatsapp size={25} />
       </a>
     </>
   )
